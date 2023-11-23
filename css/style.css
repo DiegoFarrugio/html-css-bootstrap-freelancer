@@ -30,21 +30,9 @@ header{
     width: 100%;
 }
 
-.row-special{
-    text-align: center;
-    padding: 10px;
-}
-
-#main-section-1 .row-special > .col-12{
-    padding: 5px;
-}
 
 #main-section-1 img{
     width: 150px;
-}
-
-#main-section-1 h2{
-    text-align: center;
 }
 
 .desing-hr-main-section-1{
@@ -79,8 +67,6 @@ header{
 }
 
 #main-section-2 > .col-12 >h2{
-    text-align: center;
-    padding: 15px;
     color: black;
 }
 
@@ -88,24 +74,11 @@ header{
     background-color: black;
 }
 
-#main-section-2 > .row{
-    width: 80%;
-    margin: auto;
-    border: none;
-}
 
 #main-section-2 > .row > .card{
     border: none;
 }
 
-#main-section-3{
-    margin-top: 40px;
-}
-
-#main-section-3 >h2{
-    padding: 15px;
-    text-align: center;
-}
 
 #main-section-3 > .row > div{
     width: 70%;
@@ -136,6 +109,28 @@ header{
     color: black;
 }
 
+#main-section-4{
+    width: 80%;
+    margin: auto;
+}
+
+#main-section-4 > .col-12 .progress, .progress-stacked{
+    background-color: black;
+}
+
+#footer-top{
+    background-color: #3A546D;
+}
+
+#footer-top a{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
+#footer-bottom{
+    background-color: #2C3E50;
+}
+
 
 
 
@@ -145,7 +140,6 @@ header{
 
 /*I BREAKPOINT*/
 @media screen and (min-width: 768px){
-
 
 }
 
