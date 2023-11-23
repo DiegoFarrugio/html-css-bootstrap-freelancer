@@ -1,0 +1,167 @@
+/*GENERAL*/
+.big-container{
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+
+.medium-container{
+    width: 100%;
+    color: black;
+}
+
+
+/*HEADER*/
+header{
+    background-color: #2C3E50;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+/*MAIN*/
+#main-section-1, #main-section-3{
+    background-color: #1ABC9C;
+    width: 100%;
+}
+
+.row-special{
+    text-align: center;
+    padding: 10px;
+}
+
+#main-section-1 .row-special > .col-12{
+    padding: 5px;
+}
+
+#main-section-1 img{
+    width: 150px;
+}
+
+#main-section-1 h2{
+    text-align: center;
+}
+
+.desing-hr-main-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-star{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.progress-perc{
+    width: 80px;
+    max-width: 80px;
+    height: 5px;
+}
+
+.job-categories{
+    font-size: 15px;
+}
+
+.row-section-2-flex{
+    display: flex;
+}
+
+.desing-hr-main-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-section-2 > .col-12 >h2{
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+#main-section-2 > .col-12 .progress, .progress-stacked{
+    background-color: black;
+}
+
+#main-section-2 > .row{
+    width: 80%;
+    margin: auto;
+    border: none;
+}
+
+#main-section-2 > .row > .card{
+    border: none;
+}
+
+#main-section-3{
+    margin-top: 40px;
+}
+
+#main-section-3 >h2{
+    padding: 15px;
+    text-align: center;
+}
+
+#main-section-3 > .row > div{
+    width: 70%;
+    margin: auto;
+    text-align: start;
+}
+
+.download-main-section-3{
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: #1ABC9C;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 5;
+}
+
+#main-section-3 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#main-section-3 > .col-12{
+    text-align: center;
+}
+
+#main-section-4{
+    color: black;
+}
+
+
+
+
+
+
+/********RESPONSIVE**********/
+
+/*I BREAKPOINT*/
+@media screen and (min-width: 768px){
+
+
+}
+
+
+
+
+/*II BREAKPOINT*/
+@media screen and (min-width: 992px){
+
+
+}
+
+
+
+/*III BREAKPOINT*/
+@media screen and (min-width: 1200px)
+
+
+
